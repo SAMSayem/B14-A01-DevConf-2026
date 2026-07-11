@@ -211,3 +211,102 @@ button{
 
     color:white;
 }
+/* Schedule Section */
+
+.schedule{
+
+    padding:100px 0;
+
+    background:#f8f9fc;
+
+}
+
+.section-title{
+
+    text-align:center;
+
+    margin-bottom:60px;
+
+}
+
+.section-title h2{
+
+    font-size:48px;
+
+    margin-bottom:15px;
+
+    color:#0f172a;
+
+}
+
+.section-title p{
+
+    color:#666;
+
+    max-width:650px;
+
+    margin:auto;
+
+    line-height:1.7;
+
+}
+
+.schedule-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+.day{
+
+    background:#ffffff;
+
+    border-radius:12px;
+
+    padding:30px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+}
+
+.day h3{
+
+    text-align:center;
+
+    color:#2563eb;
+
+    margin-bottom:25px;
+
+}
+
+.day ul{
+
+    list-style:none;
+
+}
+
+.day li{
+
+    padding:15px 0;
+
+    border-bottom:1px solid #eee;
+
+    font-size:15px;
+
+}
+
+.day li:last-child{
+
+    border-bottom:none;
+
+}
+
+.day strong{
+
+    color:#111827;
+
+}
