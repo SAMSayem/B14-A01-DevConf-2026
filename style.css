@@ -1,4 +1,4 @@
-/* ================= Reset ================= */
+
 
 *{
     margin:0;
@@ -39,6 +39,7 @@ header{
     display:flex;
     justify-content:space-between;
     align-items:center;
+    margin: auto;
 }
 
 .logo {
@@ -57,7 +58,7 @@ nav ul{
 nav a{
 
     text-decoration:none;
-    color:#000000;
+    color:#000000;;
 }
 
 button{
@@ -309,7 +310,21 @@ button{
     color:#111827;
 
 }
-footer-logo{
- display:block;
-    font-size:14px;
+
+.footer{
+    background-color: #1e365b ;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+   padding: 80px 30px;
+    
+}
+.ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+} 
+p{
+    color: #807e7e;
 }
