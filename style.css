@@ -18,7 +18,6 @@ img{
     display:block;
 }
 
-/* ================= Container ================= */
 
 .container{
 
@@ -27,7 +26,7 @@ img{
     margin:auto;
 }
 
-/* ================= Navbar ================= */
+
 
 header{
 
@@ -42,7 +41,7 @@ header{
     align-items:center;
 }
 
-.logo span{
+.logo {
 
     display:block;
     font-size:14px;
@@ -309,4 +308,8 @@ button{
 
     color:#111827;
 
+}
+footer-logo{
+ display:block;
+    font-size:14px;
 }
